@@ -1,0 +1,1 @@
+export { CardImages } from "./CardConfig";
