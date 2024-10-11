@@ -1,6 +1,6 @@
 .flip-card {
   perspective: 1000px;
-  overflow: hidden;
+  // overflow: hidden; // cause problems
   border-radius: 6px;
   cursor: pointer;
 
