@@ -3,6 +3,9 @@
   // overflow: hidden; // cause problems
   border-radius: 6px;
   cursor: pointer;
+  @media (orientation: landscape) {
+    min-height: 100px;
+  }
 
   &-inner {
     position: relative;
