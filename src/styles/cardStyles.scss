@@ -22,7 +22,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; // Ukrywa tylną stronę
+    backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,6 @@
 
   &-back {
     background-color: white;
-    transform: rotateY(180deg); // Obraca tył karty
+    transform: rotateY(180deg);
   }
 }
