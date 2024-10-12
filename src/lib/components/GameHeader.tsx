@@ -46,7 +46,7 @@ export const GameHeader: React.FunctionComponent<GameHeaderProps> = ({
       )}
       {!isGameActive && (
         <>
-          <h3>Choose lavel game</h3>
+          <h3>Choose Game Level</h3>
           <div className="gemeHeader__level-options">
             {Object.values(GameLevel).map((levelValue) => (
               <Button
